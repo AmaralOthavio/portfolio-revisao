@@ -38,6 +38,9 @@ main {
     height: 26vh;
     border-radius: 10px;
 }
+.bloco-1 img {
+    max-width: 40px;
+}
 .bloco-3 {
     background-color: rgb(88, 90, 105);
     width: 14vw;
@@ -78,6 +81,9 @@ footer {
 footer p {
     text-align: center;
 }
+footer img {
+    max-width: 50px;
+}
 
 @media(max-width: 600px) {
     main {
@@ -92,5 +98,11 @@ footer p {
     }
     .bloco-3 {
         width: 50vw;
+    }
+}
+
+@media(min-height:1100px) {
+    main {
+        padding: 400px 0;
     }
 }

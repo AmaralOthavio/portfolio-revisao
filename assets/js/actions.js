@@ -31,3 +31,13 @@ planejaLogo.addEventListener('click', function() {
         rotacionado = false
     }
 })
+
+var email = document.getElementById('email')
+var iconeEmail = document.getElementById('icone-email')
+email.addEventListener("mouseover", function() {
+    iconeEmail.style.display = 'block'
+    setTimeout(() => {
+        iconeEmail.style.transform = 'rotate(360deg)'
+    }, '1000');
+    
+})
