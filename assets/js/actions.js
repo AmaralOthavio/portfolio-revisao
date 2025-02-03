@@ -38,6 +38,6 @@ email.addEventListener("mouseover", function() {
     iconeEmail.style.display = 'block'
     setTimeout(() => {
         iconeEmail.style.transform = 'rotate(360deg)'
-    }, '1000');
+    }, '500');
     
 })
